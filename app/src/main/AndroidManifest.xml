@@ -37,6 +37,11 @@
             android:name=".MainActivity"
             android:label="@string/title_activity_main" >
         </activity>
+        <activity
+            android:name=".ResumeViewer"
+            android:label="@string/title_activity_resume_viewer"
+            android:theme="@android:style/Theme.Dialog">
+        </activity>
     </application>
 
 </manifest>

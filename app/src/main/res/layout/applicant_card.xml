@@ -6,9 +6,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:minWidth="100dp"
+        android:minWidth="200dp"
         android:background="#ff23c7ff"
-        android:minHeight="100dp">
+        android:minHeight="320dp"
+        android:foregroundGravity= "center_horizontal">
+
 
         <TextView
             android:layout_width="wrap_content"
@@ -16,6 +18,8 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:id="@+id/helloworld"
             android:layout_gravity="center"
-            android:maxWidth="100dp" />
+            android:maxWidth="100dp"
+            android:maxLines="10" />
+
     </FrameLayout>
 </FrameLayout>

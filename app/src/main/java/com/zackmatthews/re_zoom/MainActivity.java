@@ -1,5 +1,6 @@
 package com.zackmatthews.re_zoom;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -82,6 +83,9 @@ public class MainActivity extends ActionBarActivity {
                 Toast.makeText(MainActivity.this, "Left!", Toast.LENGTH_SHORT).show();
                 applicantAdapter.remove(dataObject);
                 applicantAdapter.notifyDataSetChanged();
+
+                Intent intent = new Intent(MainActivity.this, ResumeViewer.class);
+                startActivity(intent);
             }
 
             @Override

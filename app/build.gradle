@@ -38,4 +38,5 @@ dependencies {
     compile 'com.android.support:support-v4:22.2.0'
 
     compile 'com.lorentzos.swipecards:library:1.0.9@aar'
+    compile 'com.joanzapata.pdfview:android-pdfview:1.0.4@aar'
 }
